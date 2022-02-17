@@ -1,9 +1,11 @@
 workflows:
-  hello-world:
-    name: iOS test
-  script: |
-    xcode-project run-tests \
-        --project DBAssignment2.xcodeproj \
-        --scheme DBAssignment2
+  AdvanceTrainingDemoDB:
+    name: AdvanceTrainigDemoDB
+    scripts:
+    - name: iOS test
+      script: |
+        xcode-project run-tests \
+            --project DBAssignment2.xcodeproj \
+            --scheme DBAssignment2
 
 
